@@ -4,13 +4,8 @@ FNB blocks password managers and saved passwords. This small extensions removes 
 
 ## Usage:
 
-If you are using a password manager, you need to configure an additional field to be filled in.
+Just install the extension, and you will be able to log into FNB online banking using your saved password.
 
-Instructions for 1Password: https://support.1password.com/custom-fields/
-Instructions for LastPass: https://helpdesk.lastpass.com/editing-an-existing-site-entry ('Editing Form Fields' tab)
+## Disclaimer
 
-Add a new field with the following properties:
-
-Name: exhursfl
-Value: {Your password}
-Type: password
+This extension just creates a new hidden field on the page which FNB uses to check if you have typed your password or not. This extension will never do anything else with any data available on the FNB website other than ensuring that a password manager can be used for your login details.
