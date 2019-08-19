@@ -1,6 +1,6 @@
 {
     "name": "Unblock FNB",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Unblocks FNB login check in order to use saved passwords and password managers.",
     "icons": {
       "128": "icon.jpg"
