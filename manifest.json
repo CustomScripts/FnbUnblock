@@ -1,0 +1,20 @@
+{
+    "name": "Unblock FNB",
+    "version": "1.0.0",
+    "description": "Unblocks FNB login check in order to use saved passwords and password managers.",
+    "icons": {
+      "128": "icon.jpg"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.fnb.co.za/*"],
+            "js": ["content-script.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": ["activeTab"],
+    "manifest_version": 2
+}
